@@ -50,7 +50,8 @@ int is_space(char *str);
 int	ft_is_delimiter(char c);
 int ft_words_nbr(char *cmd);
 void set_and_execute(char *cmd);
-char **ft_parser(char *cmd, int idx);
+char **ft_parser(char *cmd);
 int	ft_is_quote(char c);
+int find_len_util(char *cmd, int i, char quote);
 
 #endif

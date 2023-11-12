@@ -31,7 +31,7 @@ void set_and_execute(char *cmd)
 {
    char **splitted_cmd;
    
-   splitted_cmd = ft_parser(cmd, 0);
+   splitted_cmd = ft_parser(cmd);
 }
 int main(int argc, char **argv, char **env)
 {
